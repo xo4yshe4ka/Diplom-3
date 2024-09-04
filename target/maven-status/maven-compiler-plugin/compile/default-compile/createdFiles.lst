@@ -1,0 +1,14 @@
+pages\RegistrationFormPage.class
+client\BaseApi.class
+pages\BasePage.class
+client\UserClient.class
+pages\LoginAccountPage.class
+pages\HeaderPage.class
+pages\ProfilePage.class
+pages\MainPage.class
+client\User.class
+org\example\Main.class
+client\UserCredentials.class
+pages\RecoverPasswordPage.class
+client\RestClient.class
+client\UserGenerator.class
