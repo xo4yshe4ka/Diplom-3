@@ -13,7 +13,7 @@ public class TestConstructor extends BaseTest{
                 .clickFillingsButton()
                 .clickBunButton()
                 .isActiveBunButton();
-        assertTrue("must be true", actualActiveButton);
+        assertTrue("The tab should switch to the 'Bun' section", actualActiveButton);
     }
 
     @Test
@@ -22,7 +22,7 @@ public class TestConstructor extends BaseTest{
         boolean actualActiveButton = new MainPage(driver)
                 .clickSaucesButton()
                 .isActiveSaucesButton();
-        assertTrue("must be true", actualActiveButton);
+        assertTrue("The tab should switch to the 'Sauces' section", actualActiveButton);
     }
 
     @Test
@@ -31,6 +31,6 @@ public class TestConstructor extends BaseTest{
         boolean actualActiveButton = new MainPage(driver)
                 .clickFillingsButton()
                 .isActiveFillingsButton();
-        assertTrue("must be true", actualActiveButton);
+        assertTrue("The tab should switch to the 'Fillings' section", actualActiveButton);
     }
 }
